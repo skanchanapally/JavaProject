@@ -20,10 +20,6 @@ public class Account
 		Name = NM;
 	}
 
-	public Account(String UN, String PassW) {
-		Username = UN;
-		Password = PassW;
-	}
     public boolean signUp() {
 		boolean done = !Username.equals("") && !Password.equals("") && !Password1.equals("") && Password.equals(Password1);
 		try {
